@@ -1,6 +1,8 @@
 import random
 import time
 import turtle
+Screen = turtle.Screen()
+Screen.title("DVD Player")
 turtle.tracer(0)
 colors = ["red", "blue", "green", "yellow", "orange", "purple",]
 t=turtle.Turtle("circle")
